@@ -46,6 +46,4 @@ List<Widget> makeCircleImages(BuildContext context,List<Movie> movies){
     ),));
   }
   return result;
-
-                           //05-08 : 챕터 6의 마지막부분부터 다시 보면 됨
 }

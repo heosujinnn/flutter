@@ -1,4 +1,5 @@
 import 'package:contact/screen/home_screen.dart';
+import 'package:contact/screen/more_screen.dart';
 import 'package:contact/widget/bottom_bar.dart';
 import 'package:flutter/material.dart';
 
@@ -22,8 +23,8 @@ class _MyAppState extends State<MyApp>{
         [
           HomeScreen(),
           Container(child: Center(child: Text('홈'),)),Container(child: Center(child: Text('2'),),)
-        ,Container(child: Center(child: Text('3'),),)
-        ,Container(child: Center(child:Text('4')),)
+        ,MoreScreen(),
+
       ],
       ),
         //네비게이션 바
